@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTA App</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        
+        .logo {
+            
+            width: 400px; /* Adjust width as per your logo size */
+            margin-top: -500px; /* Margem superior para posicionar abaixo do cabeçalho */
+            height: auto;
+        
+        
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ironhack Presents</h1>
+    </header>
+
+    
+    <div class="sidebar">
+            <img src="{{ url_for('static', filename='Logo_i.svg') }}" alt="Logo" class="logo_1">
+            <button class="button" onclick="openskeleton()">Open Skeleton</button>
+            <button class="button" onclick="openDataModel()">Open Data Model</button>
+            <button class="button" onclick="opencompare()">Open Compare</button>         
+            <button class="button">Open PTA APP</button>
+    </div>
+
+
+
+
+
+    <div class="main-content">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">
+         <h1>Welcome to PTA App V1.2</h1>
+         <p>website under construction.</p>
+    </div>
+
+
+
+    <img src="{{ url_for('static', filename='rf1.jpg') }}" alt="jpeg" class="jpeg">
+    <img src="{{ url_for('static', filename='rf2.jpg') }}" alt="jpeg" class="jpeg1">
+    
+
+    </div>
+    <footer>
+        <p>Final Project of the data Analytics.</p>
+        <p>Developed by: Patrick Marques 03/2024</p>
+    </footer>
+
+
+    <script>
+        function openDataModel() {
+            window.location.href = "data_model.html";
+        }
+
+        function openskeleton() {
+            window.location.href = "skeleton.html";
+        }
+
+        function opencompare() {
+            window.location.href = "compare.html";
+        }
+
+
+
+
+
+    </script>
+
+       
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+/* redirect url_for to static files */  
+
+

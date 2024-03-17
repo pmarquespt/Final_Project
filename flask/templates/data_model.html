@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTA App</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        
+        .logo {
+            position: absolute; /* Define a posição absoluta para o jpeg */
+            bottom: 150px; /* Distância do fundo */
+            right: 1680px; /* Distância da direita */
+            width: 150px; /* Adjust width as per your logo size */
+
+        
+        
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Date for the training model</h1>
+        
+        
+        
+        
+        
+    </header>
+
+    
+    <div class="sidebar">
+        <img src="{{ url_for('static', filename='Logo_i.svg') }}" alt="Logo" class="logo_1">
+        <button class="button" onclick="openindex()">Main Page</button>
+        <button class="button" onclick="openskeleton()">Open Skeleton</button>
+        <button class="button" onclick="openDataModel()">Open Data Model</button>
+        <button class="button" onclick="opencompare()">Open Compare</button>
+        <button class="button">Open PTA APP</button>
+        <button onclick="goBack()">Return</button>
+        <h1>PTA App V1.2</h1>
+
+
+
+
+    </div>
+
+
+
+
+    
+
+    <div class="main-content">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">
+        
+        
+    </div>
+
+
+
+   
+
+    <img src="{{ url_for('static', filename='g1.gif') }}" alt="gif" class="gif1">
+    <img src="{{ url_for('static', filename='g3.gif') }}" alt="gif" class="gif3">
+    <img src="{{ url_for('static', filename='data_mod.PNG') }}" alt="png" class="jpeg3">
+    <img src="{{ url_for('static', filename='pose_mark.jpg') }}" alt="jpeg" class="jpeg2">
+    <img src="{{ url_for('static', filename='png1.png') }}" alt="png" class="png1">
+    
+  
+    
+
+    </div>
+    <footer>
+        
+        <p>Final Project of the data Analytics.</p>
+        <p>Developed by: Patrick Marques 03/2024</p>
+    </footer>
+
+
+    <script>
+        function openDataModel() {
+            window.location.href = "data_model.html";
+        }
+
+        function openskeleton() {
+            window.location.href = "skeleton.html";
+        }
+
+        function openindex() {
+            window.location.href = "index.html";
+        }
+
+
+        function goBack() {
+            window.history.back();
+        }
+
+        function opencompare() {
+            window.location.href = "compare.html";
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+

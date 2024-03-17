@@ -1,0 +1,246 @@
+.return-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+body {
+    background-color: #e0ffe0; /* Light green background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Display main content, header, and footer vertically */
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+
+
+}
+header, footer {
+    width: 100%;
+    background-color: #4CAF50; /* Green background for header and footer */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding top and bottom */
+    text-align: center; /* Center text */
+
+
+}
+.main-content {
+    flex-grow: 1; /* Take remaining vertical space */
+    display: flex; /* Enable flexbox for main content */
+    flex-direction: column; /* Display logo and content vertically */
+    align-items: center; /* Center horizontally */
+}
+
+
+
+
+
+
+.sidebar {
+    width: 200px; /* Largura da barra lateral */
+    height: 75vh; /* Altura igual à altura da viewport */
+    background-color: #add8e6; /* Cor de fundo azul claro */
+    align-self: flex-start; /* Alinha à esquerda da página */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.logo_1 {
+    padding: 50px;
+    width: 100px; /* Ajuste a largura conforme o tamanho do seu logo */
+    align-items: center;
+}
+
+
+
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.jpeg {
+    position: absolute; /* Define a posição absoluta para o jpeg */
+    bottom: 110px; /* Distância do fundo */
+    right: 100px; /* Distância da direita */
+    width: 250px; /* Adjust width as per your logo size */
+    height: auto;
+}
+
+
+.jpeg1 {
+    position: absolute; /* Define a posição absoluta para o jpeg */
+    bottom: 175px; /* Distância do fundo */
+    left: 240px; /* Distância da direita */
+    width: 230px; /* Adjust width as per your logo size */
+    height: auto;
+}
+
+
+.jpeg2 {
+    position: absolute; /* Define a posição absoluta para o jpeg */
+    bottom: 100px; /* Distância do fundo */
+    left: 800px; /* Distância da direita */
+    width: 600px; /* Adjust width as per your logo size */
+    height: auto;
+}
+
+
+.jpeg3 {
+    position: absolute; /* Define a posição absoluta para o jpeg */
+    bottom: 100px; /* Distância do fundo */
+    left: 250px; /* Distância da direita */
+    width: 450px; /* Adjust width as per your logo size */
+    height: auto;
+}
+
+
+
+
+.jpeg4 {
+    width: 220px;
+    position: absolute;
+    top:120px;
+    right: 40px;
+}
+
+
+
+
+.jpeg5 {
+    width: 338px;
+    position: absolute;
+    top:120px;
+    right: 300px;
+}
+
+
+.gif {
+    position: absolute; /* Define a posição absoluta para o GIF */
+    bottom: 100px; /* Distância do fundo */
+   
+    left: 300px; /* Distância da direita */
+    width: 200px; /* Adjust width as per your logo size */
+    
+}
+
+
+.gif1 {
+    width: 110px;
+    position: absolute;
+    top:625px;
+    right: 660px;
+}
+    
+
+.gif2 {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    right: 1420px;
+    
+}
+.gif3 {
+    width: 180px;
+    position: absolute;
+    top: 110px;
+    right: 70px;
+  
+  
+}
+
+
+.gif4 {
+    width: 600px;
+    position: absolute;
+    top: 250px;
+    right: 30px;
+  
+  
+}
+
+
+.gif7 {
+    width: 500px;
+    position: absolute;
+    top: 110px;
+    right: 650px;
+  
+  
+}
+
+
+
+.gif6 {
+    width: 500px;
+    position: absolute;
+    top: 110px;
+    right: 650px;
+  
+  
+}
+
+
+.gif5 {
+    width: 500px;
+    position: absolute;
+    top: 400px;
+    right: 650px;
+}
+
+
+.png {
+    position: absolute; 
+    bottom: 100px; 
+    left: 0;
+    right: 0; /* Set both left and right to 0 */
+    margin: 0 auto; /* Auto margin horizontally centers the element */
+    width: 600px; 
+    height: auto;
+}
+
+
+
+.png1 {
+    width: 230px;
+    position: absolute;
+    top: 110px;
+    right: 440px;}
+
+.png2 {
+    width: 600px;
+    position: absolute;
+    top: 110px;
+    right: 650px;}
+
+
+
+footer {
+    text-align: right; /* Align text to the right */
+}
+
+
+
+body {
+    background-image: url("e1.jpg");
+    background-size: cover; /* para cobrir toda a área */
+    background-position: center; /* para centralizar a imagem */
+    background-repeat: no-repeat; /* para não repetir a imagem */
+    opacity: 0.95; /* ajuste a opacidade conforme necessário */
+}
