@@ -31,6 +31,7 @@ To get started with the Tennis Serve analyze, follow these steps:
 1. Clone this repository to your local machine:
 2. Navigate to the project directory:
 3. Install the required dependencies:
+4. Open file final.py
 
 
  ## Usage
