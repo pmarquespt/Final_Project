@@ -10,7 +10,7 @@ Welcome to the Tennis Serve analyze project! This repository contains the code a
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
-- [Contributing](#contributing)
+
 
 ## Introduction
 
@@ -45,9 +45,6 @@ Once you have installed the project dependencies, you can use the Tennis Serve a
 
 For more detailed instructions and options, refer to the project documentation.
 
-## Contributing
-
-Contributions to the Tennis Serve analyze project are welcome! Whether you want to report a bug, suggest a feature, or submit a pull request, please feel free to get involved. Check out the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
 
 
 ---
